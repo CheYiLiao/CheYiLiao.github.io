@@ -3,6 +3,7 @@
 <!-- _layouts/bib.html -->
       <div class="row">
 	<div class="col-sm-3">
+
   	  {%- if entry.teaser -%}
             {% if entry.teaser contains '://' -%}
 	    <img class="teaser" src="{{ entry.teaser }}">
@@ -11,6 +12,7 @@
 	    {%- endif -%}
           {%- endif -%}
 	</div>
+
         <!-- Entry bib key -->
         <div id="{{entry.key}}" class="col-sm-7">
         {% if entry.type == "thesis" -%}
