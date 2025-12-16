@@ -6,12 +6,6 @@
             <h1>{{ site.author.name }}</h1>
             <p class="profile-title">{{ site.author.title }}</p>
             <p class="profile-affiliation">
-                {% if site.author.department_url and site.author.department_url != "" %}
-                    <a href="{{ site.author.department_url }}">{{ site.author.department }}</a>
-                {% else %}
-                    {{ site.author.department }}
-                {% endif %}
-                <br>
                 {% if site.author.university_url and site.author.university_url != "" %}
                     <a href="{{ site.author.university_url }}">{{ site.author.university }}</a>
                 {% else %}
