@@ -11,15 +11,10 @@ author:
   photo: /assets/images/profile.jpg
 
   # Primary position
-  title: PhD in Machine Learning
-  university: Georgia Institute of Technology
+  title: George Fellow | Seth Bonder Fellow
+  dept: PhD Candidate, Machine Learning
+  school: Georgia Institute of Technology
   # Leave blank or remove to disable links:
-  
-
-  # Additional affiliations (optional - add as many as you want)
-  affiliations:
-    - title:  2025 George Family Fellow 
-    - title:  2024 Seth Bonder Fellow
 
 # Social links (leave blank or remove to hide)
 social:
