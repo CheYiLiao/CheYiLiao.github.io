@@ -13,8 +13,9 @@ author:
   # Primary position
   title: George Fellow | Seth Bonder Fellow
   dept: PhD Candidate, Machine Learning
-  school: Georgia Institute of Technology
-  # Leave blank or remove to disable links:
+  school: Georgia Institute of Technology 
+  location: Atlanta, GA, USA
+  
 
 # Social links (leave blank or remove to hide)
 social:
