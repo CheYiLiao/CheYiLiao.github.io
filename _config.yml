@@ -1,39 +1,32 @@
 # Site settings
-title: Your Name
-description: Academic portfolio website
-url: "https://yourusername.github.io"
+title: Che-Yi Liao
+description: Personalized LLM, Constrained Alignment, AI-Driven Learning and Operations Management, AI in Healthcare
+url: "https://CheYiLiao.github.io"
 baseurl: ""
 
 # Personal info
 author:
-  name: Your Name
-  email: your.email@university.edu
+  name: Che-Yi Liao
+  email: cliao48 at gatech dot edu
   photo: /assets/images/profile.jpg
 
   # Primary position
-  title: Assistant Professor
-  department: Computer Science
-  university: Your University
+  title: Final Year PhD Candidate
+  department: Machine Learning
+  university: Georgia Institute of Technology
   # Leave blank or remove to disable links:
   department_url: ""
   university_url: ""
 
   # Additional affiliations (optional - add as many as you want)
   affiliations:
-    - title: Affiliated Faculty
-      place: Center for AI Research
-      url: ""   # leave blank for no link
-    - title: Amazon Scholar
-      place: Amazon
-      url: "https://amazon.com"
+    - title:  2025 George Family Fellow | 2024 Seth Bonder Fellow
 
 # Social links (leave blank or remove to hide)
 social:
-  google_scholar: "https://scholar.google.com/citations?user=YOURID"
-  github: "https://github.com/yourusername"
-  twitter: "https://twitter.com/yourusername"
-  linkedin: "https://linkedin.com/in/yourusername"
-  cv: /assets/cv.pdf
+  google_scholar: "https://scholar.google.com/citations?user=qX9MI1MAAAAJ&hl=en"
+  github: "https://github.com/CheYiLiao"
+  linkedin: "https://linkedin.com/in/che-yi-liao"
 
 # Build settings
 markdown: kramdown
