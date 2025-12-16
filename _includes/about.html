@@ -4,11 +4,17 @@
             <img src="{{ site.author.photo | default: 'https://via.placeholder.com/200x200?text=Photo' | relative_url }}" 
                  alt="{{ site.author.name }}" class="profile-image">
             <h1>{{ site.author.name }}</h1>
-            <p class="profile-title">{{ site.author.title }}</p>
-            <p class="profile-affiliation">{{ site.author.dept }}</p>
-            <p class="profile-affiliation">{{ site.author.school }}</p>
-            <p class="profile-affiliation">{{ site.author.location }}</p>
+            {% if site.author.titles %}
+            {% for til in site.author.til %}
             <p class="profile-affiliation">
+                {{ affil.title }}<br>
+            </p>
+            {% endfor %}
+            {% endif %}
+            <p class="profile-affiliation-secondary">{{ site.author.dept }}</p>
+            <p class="profile-affiliation-secondary">{{ site.author.school }}</p>
+            <p class="profile-affiliation-secondary">{{ site.author.location }}</p>
+            <p class="profile-affiliation-secondary">
                 {% if site.author.university_url and site.author.university_url != "" %}
                     <a href="{{ site.author.university_url }}">{{ site.author.university }}</a>
                 {% else %}
