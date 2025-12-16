@@ -11,7 +11,8 @@ author:
   photo: /assets/images/profile.jpg
 
   # Primary position
-  title: PhD Candidate in Machine Learning
+  title: PhD Candidate
+  department: Machine Learning
   university: Georgia Institute of Technology
   # Leave blank or remove to disable links:
   
