@@ -1,0 +1,30 @@
+# Teaching - separate sections for instructor and guest lecturer roles
+
+instructor:
+  - code: "CS 496"
+    name: "Advanced Topics in Machine Learning"
+    university: "Your University"
+    term: "Spring 2025"
+    url: "/teaching/cs496"
+
+  - code: "CS 396"
+    name: "Introduction to Deep Learning"
+    university: "Your University"
+    term: "Fall 2024"
+    url: "/teaching/cs396"
+
+guest_lecturer:
+  - topic: "Transformers and Attention Mechanisms"
+    course: "CS 598 Advanced NLP"
+    university: "Other University"
+    term: "Fall 2024"
+
+  - topic: "Multimodal Learning"
+    course: "CS 546 Machine Learning"
+    university: "Your University"
+    term: "Spring 2024"
+
+  - topic: "Research Methods in AI"
+    course: "CS 500 Graduate Seminar"
+    university: "Your University"
+    term: "Fall 2023"

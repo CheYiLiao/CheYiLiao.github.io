@@ -1,0 +1,22 @@
+# Academic service - use 'items' for lists, 'content' for inline text
+
+- title: "Organizing Committee"
+  items:
+    - "ACL 2025 (Workshop Chair)"
+    - "NeurIPS 2024 Workshop on Topic (Organizer)"
+    - "EMNLP 2024 (Publicity Chair)"
+
+- title: "Area Chair"
+  content: "ACL (from 2024), EMNLP (from 2024), NeurIPS (from 2025)"
+
+- title: "Senior Program Committee"
+  content: "AAAI (from 2024), IJCAI (from 2024)"
+
+- title: "Program Committee / Reviewer"
+  content: "ACL, EMNLP, NAACL, NeurIPS, ICML, ICLR, CVPR, AAAI, TACL, JMLR"
+
+- title: "Community Service"
+  items:
+    - "Student Research Workshop Mentor, ACL 2024"
+    - "PhD Application Mentorship Program, 2023-present"
+    - "Graduate Student Representative, Department Visit Day, 2022"

@@ -1,0 +1,14 @@
+# Your bio/about content (supports Markdown)
+content: |
+  Hi there! I'm **Your Name**. I am an assistant professor at 
+  [Your University](https://youruniversity.edu). My research focuses on 
+  machine learning, natural language processing, and computer vision.
+
+  Prior to this, I was a postdoc at [Another University](https://another.edu) (2024), 
+  working with [Advisor Name](https://advisor.com). I obtained my PhD at 
+  [PhD University](https://phd.edu) (2023), advised by [PhD Advisor](https://advisor.edu).
+
+  I am a recipient of **Award Name** in 2024, **Another Award** in 2023, 
+  and my work on [topic] was recognized as **Best Paper Award** at Conference 2024.
+
+  **Research Interests:** Machine Learning, NLP, Computer Vision, Robotics

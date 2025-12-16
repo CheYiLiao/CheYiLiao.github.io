@@ -1,0 +1,29 @@
+# Awards and honors (newest first)
+# Fields: name, from (optional - organization), year
+
+- name: "Best Paper Award"
+  from: "ICML 2025"
+  year: "2025"
+
+- name: "Outstanding Dissertation Award"
+  from: "University Name"
+  year: "2024"
+
+- name: "Rising Star in ML"
+  from: "ML Collective"
+  year: "2023"
+
+- name: "Research Fellowship"
+  from: "NSF"
+  year: "2022"
+
+- name: "Best Demo Paper Award"
+  from: "ACL 2022"
+  year: "2022"
+
+- name: "Graduate Fellowship"
+  from: "Your University"
+  year: "2020-2024"
+
+- name: "National Scholarship"
+  year: "2019"

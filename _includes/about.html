@@ -1,0 +1,39 @@
+<section class="hero" id="about">
+    <div class="hero-container">
+        <div class="profile-card">
+            <img src="{{ site.author.photo | default: 'https://via.placeholder.com/200x200?text=Photo' | relative_url }}" 
+                 alt="{{ site.author.name }}" class="profile-image">
+            <h1>{{ site.author.name }}</h1>
+            <p class="profile-title">{{ site.author.title }}</p>
+            <p class="profile-affiliation">
+                <a href="{{ site.author.department_url }}">{{ site.author.department }}</a><br>
+                <a href="{{ site.author.university_url }}">{{ site.author.university }}</a>
+            </p>
+            <div class="social-links">
+                {% if site.social.email or site.author.email %}
+                <a href="mailto:{{ site.author.email }}" title="Email">✉</a>
+                {% endif %}
+                {% if site.social.google_scholar %}
+                <a href="{{ site.social.google_scholar }}" title="Google Scholar">📚</a>
+                {% endif %}
+                {% if site.social.github %}
+                <a href="{{ site.social.github }}" title="GitHub">💻</a>
+                {% endif %}
+                {% if site.social.twitter %}
+                <a href="{{ site.social.twitter }}" title="Twitter">𝕏</a>
+                {% endif %}
+                {% if site.social.linkedin %}
+                <a href="{{ site.social.linkedin }}" title="LinkedIn">in</a>
+                {% endif %}
+                {% if site.social.cv %}
+                <a href="{{ site.social.cv | relative_url }}" title="CV">📄</a>
+                {% endif %}
+            </div>
+            <p class="profile-email">{{ site.author.email }}</p>
+        </div>
+
+        <div class="bio">
+            {{ site.data.about.content | markdownify }}
+        </div>
+    </div>
+</section>

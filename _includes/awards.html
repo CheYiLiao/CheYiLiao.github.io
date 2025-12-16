@@ -1,0 +1,14 @@
+<section id="awards">
+    <div class="section-container reveal">
+        <h2 class="section-title">Awards</h2>
+        <ul class="awards-list">
+            {% for award in site.data.awards %}
+            <li>
+                <strong>{{ award.name }}</strong>
+                {% if award.from %}, {{ award.from }}{% endif %}
+                <span class="award-year">({{ award.year }})</span>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>

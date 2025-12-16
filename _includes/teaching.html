@@ -1,0 +1,25 @@
+<section id="teaching">
+    <div class="section-container reveal">
+        <h2 class="section-title">Teaching</h2>
+
+        {% if site.data.teaching.instructor %}
+        <h3 class="teaching-heading">Instructor</h3>
+        {% for course in site.data.teaching.instructor %}
+        <div class="teaching-item">
+            <h4>{% if course.url %}<a href="{{ course.url }}">{{ course.code }}: {{ course.name }}</a>{% else %}{{ course.code }}: {{ course.name }}{% endif %}</h4>
+            <p class="teaching-meta">{{ course.university }}, {{ course.term }}</p>
+        </div>
+        {% endfor %}
+        {% endif %}
+
+        {% if site.data.teaching.guest_lecturer %}
+        <h3 class="teaching-heading">Guest Lecturer</h3>
+        {% for lecture in site.data.teaching.guest_lecturer %}
+        <div class="teaching-item">
+            <h4>{{ lecture.topic }}</h4>
+            <p class="teaching-meta">{{ lecture.course }} at {{ lecture.university }}, {{ lecture.term }}</p>
+        </div>
+        {% endfor %}
+        {% endif %}
+    </div>
+</section>

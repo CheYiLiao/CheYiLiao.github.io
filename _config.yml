@@ -1,0 +1,28 @@
+# Site settings
+title: Your Name
+description: Academic portfolio website
+url: "https://yourusername.github.io"
+baseurl: ""
+
+# Personal info
+author:
+  name: Your Name
+  title: Assistant Professor
+  department: Computer Science
+  university: Your University
+  department_url: "https://cs.youruniversity.edu"
+  university_url: "https://youruniversity.edu"
+  email: your.email@university.edu
+  photo: /assets/images/profile.jpg
+
+# Social links (leave blank to hide)
+social:
+  google_scholar: "https://scholar.google.com/citations?user=YOURID"
+  github: "https://github.com/yourusername"
+  twitter: "https://twitter.com/yourusername"
+  linkedin: "https://linkedin.com/in/yourusername"
+  cv: /assets/cv.pdf
+
+# Build settings
+markdown: kramdown
+permalink: pretty
