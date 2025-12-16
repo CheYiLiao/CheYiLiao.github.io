@@ -151,7 +151,7 @@ nav {
 .profile-affiliation {
     color: var(--primary-color);
     font-size: 0.95rem;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0rem;
 }
 
 .profile-affiliation-secondary {
