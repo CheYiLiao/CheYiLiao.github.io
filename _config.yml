@@ -6,22 +6,22 @@ baseurl: ""
 
 # Personal info
 author:
-  name: Your Name
-  title: Assistant Professor
-  department: Computer Science
-  university: Your University
-  department_url: "https://cs.youruniversity.edu"
-  university_url: "https://youruniversity.edu"
-  email: your.email@university.edu
+  name: Che-Yi Liao (廖哲儀)
+  title: PhD Candidate 
+  department: Machine Learning
+  university: Georgia Institute of Technology
+#  department_url: "https://cs.youruniversity.edu"
+  # university_url: "https://youruniversity.edu"
+  email: cliao48 at gatech dot edu
   photo: /assets/images/profile.jpg
 
 # Social links (leave blank to hide)
 social:
-  google_scholar: "https://scholar.google.com/citations?user=YOURID"
-  github: "https://github.com/yourusername"
-  twitter: "https://twitter.com/yourusername"
-  linkedin: "https://linkedin.com/in/yourusername"
-  cv: /assets/cv.pdf
+  google_scholar: "https://scholar.google.com/citations?user=qX9MI1MAAAAJ"
+  github: "https://github.com/CheYiLiao"
+  # twitter: "https://twitter.com/yourusername"
+  linkedin: "https://linkedin.com/in/che-yi-liao/"
+  # cv: /assets/cv.pdf
 
 # Build settings
 markdown: kramdown
