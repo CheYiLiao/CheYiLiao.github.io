@@ -144,19 +144,19 @@ nav {
 
 .profile-title {
     color: var(--text-muted);
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin-bottom: 0.25rem;
 }
 
 .profile-affiliation {
-    color: var(--primary-color);
-    font-size: 0.95rem;
+    color: var(--text-muted);
+    font-size: 0.7rem;
     margin-bottom: 0rem;
 }
 
 .profile-affiliation-secondary {
     color: var(--text-muted);
-    font-size: 0.9rem;
+    font-size: 0.6rem;
     margin-bottom: 0.5rem;
 }
 
