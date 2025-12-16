@@ -14,13 +14,7 @@
             <p class="profile-affiliation">{{ site.author.dept }}</p>
             <p class="profile-affiliation">{{ site.author.school }}</p>
             <p class="profile-affiliation">{{ site.author.location }}</p>
-            <p class="profile-affiliation">
-                {% if site.author.university_url and site.author.university_url != "" %}
-                    <a href="{{ site.author.university_url }}">{{ site.author.university }}</a>
-                {% else %}
-                    {{ site.author.university }}
-                {% endif %}
-            </p>
+ 
             <div class="social-links">
                 {% if site.social.google_scholar and site.social.google_scholar != "" %}
                 <a href="{{ site.social.google_scholar }}" title="Google Scholar" target="_blank">
