@@ -9,9 +9,13 @@ author:
   name: Che-Yi Liao
   email: cliao48 at gatech dot edu
   photo: /assets/images/profile.jpg
-
-  # Primary position
-  title: George Fellow | Seth Bonder Fellow
+  focuses: 
+    - focus: Personalized LLM | 
+    - focus: Constrained Alignment |
+    - focus: AI-Driven Learning and Operations Management | 
+    - focus: AI in Healthcare
+  titles:
+    - title: George Fellow | Seth Bonder Fellow
   dept: PhD Candidate, Machine Learning
   school: Georgia Institute of Technology 
   location: Atlanta, GA, USA
