@@ -5,9 +5,9 @@
                  alt="{{ site.author.name }}" class="profile-image">
             <h1>{{ site.author.name }}</h1>
             <p class="profile-title">{{ site.author.title }}</p>
-            <p class="profile-dept">{{ site.author.department }}</p>
-            <p class="profile-dept">{{ site.author.school }}</p>
-            <p class="profile-dept">{{ site.author.location }}</p>
+            <p class="profile-affiliation">{{ site.author.department }}</p>
+            <p class="profile-affiliation">{{ site.author.school }}</p>
+            <p class="profile-affiliation">{{ site.author.location }}</p>
             <p class="profile-affiliation">
                 {% if site.author.university_url and site.author.university_url != "" %}
                     <a href="{{ site.author.university_url }}">{{ site.author.university }}</a>
