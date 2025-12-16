@@ -11,16 +11,15 @@ author:
   photo: /assets/images/profile.jpg
 
   # Primary position
-  title: Final Year PhD Candidate
-  department: Machine Learning
+  title: PhD Candidate in Machine Learning
   university: Georgia Institute of Technology
   # Leave blank or remove to disable links:
-  department_url: ""
-  university_url: ""
+  
 
   # Additional affiliations (optional - add as many as you want)
   affiliations:
-    - title:  2025 George Family Fellow | 2024 Seth Bonder Fellow
+    - title:  2025 George Family Fellow 
+    - title:  2024 Seth Bonder Fellow
 
 # Social links (leave blank or remove to hide)
 social:
