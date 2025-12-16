@@ -6,15 +6,15 @@
             <h1>{{ site.author.name }}</h1>
             {% if site.author.titles %}
             {% for til in site.author.til %}
-            <p class="profile-affiliation">
+            <p class="profile-title">
                 {{ til.title }}<br>
             </p>
             {% endfor %}
             {% endif %}
-            <p class="profile-affiliation-secondary">{{ site.author.dept }}</p>
-            <p class="profile-affiliation-secondary">{{ site.author.school }}</p>
-            <p class="profile-affiliation-secondary">{{ site.author.location }}</p>
-            <p class="profile-affiliation-secondary">
+            <p class="profile-affiliation">{{ site.author.dept }}</p>
+            <p class="profile-affiliation">{{ site.author.school }}</p>
+            <p class="profile-affiliation">{{ site.author.location }}</p>
+            <p class="profile-affiliation">
                 {% if site.author.university_url and site.author.university_url != "" %}
                     <a href="{{ site.author.university_url }}">{{ site.author.university }}</a>
                 {% else %}
