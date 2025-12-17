@@ -1,14 +1,15 @@
 # Your bio/about content (supports Markdown)
 content: |
-  Hi there! I'm **Your Name**. I am an assistant professor at 
-  [Your University](https://youruniversity.edu). My research focuses on 
-  machine learning, natural language processing, and computer vision.
+  I am a **PhD Candidate in Machine Learning** at **Georgia Institute of Technology**, specializing in **high-stakes applications** of AI, Statistics, and Operations Research and driving real-world impact by translating complex data into **production-scale robust solutions**.
 
-  Prior to this, I was a postdoc at [Another University](https://another.edu) (2024), 
-  working with [Advisor Name](https://advisor.com). I obtained my PhD at 
-  [PhD University](https://phd.edu) (2023), advised by [PhD Advisor](https://advisor.edu).
+  My job market research focuses on **Data-Efficient Personalized LLMs and Constrained Alignment**, where I developed a **provably safe and empirically efficient RLHF variant**.
+  Validated on a personalized treatment recommendation case study combining **tabular and multivariate time-series clinical data**, this work achieved +130% in reliability of the generated treatment trajectories and -23% in effort-to-change. [*Link to paper*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5642250)
 
-  I am a recipient of **Award Name** in 2024, **Another Award** in 2023, 
-  and my work on [topic] was recognized as **Best Paper Award** at Conference 2024.
 
-  **Research Interests:** Machine Learning, NLP, Computer Vision, Robotics
+  My industrial experience includes an internship at Meta, where I optimized **ads ranking** using foundational model knowledge distillation and built **full-stack ML pipelines** from data ingestion to model design and deployment.
+
+  I have a strong track record of **cross-functional collaboration**, working comfortably with researchers, engineers, and domain experts. My experience spans aligning technical designs with business constraints alongside engineers (Meta, Bosch) and partnering with medical experts (Michigan Medicine, Emory Hospital, VA Hospital, State Department of Public Health) to ensure clinical validity.
+
+  <mark>I am actively seeking an AI Research Scientist position starting in May 2026.</mark> I am particularly enthusiastic about roles focused on LLM/Agent personalization and alignment, eager to contribute to frontier AI solutions within a collaborative team.
+
+  **Research Interests:** Personalized LLM, Constrained Alignment, AI-Driven Learning and Operations Management, AI in Healthcare
