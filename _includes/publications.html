@@ -6,28 +6,64 @@
             <label for="pub-category-filter">Filter by type:</label>
             <select id="pub-category-filter" onchange="filterPublications()">
                 <option value="all">All</option>
-                <option value="published">Published Papers</option>
-                <option value="working-paper">Working Papers</option>
+                <option value="hom">Healthcare Operations Management</option>
+                <option value="working-paper">Papers in</option>
             </select>
+        </div>
+        <div class="pub-filter-note">
+            * indicates authors with equal contribution
         </div>
 
         {% for pub in site.data.publications %}
-        <div class="pub-item" data-category="{{ pub.category }}">
+        <div class="pub-item" data-categories="{% if pub.category %}{{ pub.category | join: ',' }}{% endif %}">
             <div class="pub-title">
                 {% if pub.url %}<a href="{{ pub.url }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}
+                {% if pub.year %}<span class="pub-year">({{ pub.year }})</span>{% endif %}
             </div>
             <div class="pub-authors">
-                {% for author in pub.authors %}{% if author == site.author.name %}<strong>{{ author }}</strong>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
+                {% for author in pub.authors %}{% assign author_clean = author | replace: '*', '' | replace: '†', '' | strip %}{% if author_clean == site.author.name %}<strong>{{ author }}</strong>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
             </div>
             <div class="pub-venue">
                 {{ pub.venue }}
                 {% if pub.award %}<span class="pub-award">🏆 {{ pub.award }}</span>{% endif %}
             </div>
-            {% if pub.links %}
+            {% if pub.keywords %}
+            <div class="pub-keywords">
+                <strong>Keywords:</strong> {{ pub.keywords | join: ", " }}
+            </div>
+            {% endif %}
             <div class="pub-links">
-                {% for link in pub.links %}
-                <a href="{{ link.url }}" class="pub-link">{{ link.name }}</a>
-                {% endfor %}
+                {% if pub.abstract or pub.figure %}
+                <button class="pub-link pub-toggle" onclick="toggleAbstract('pub-{{ forloop.index }}')">Abstract ▼</button>
+                {% endif %}
+                {% if pub.full_paper %}
+                <a href="{{ pub.full_paper }}" class="pub-link">Full Paper</a>
+                {% endif %}
+                {% if pub.pdf %}
+                <a href="{{ pub.pdf }}" class="pub-link">PDF</a>
+                {% endif %}
+                {% if pub.slides %}
+                <a href="{{ pub.slides }}" class="pub-link">Slides</a>
+                {% endif %}
+                {% if pub.video %}
+                <a href="{{ pub.video }}" class="pub-link">Video</a>
+                {% endif %}
+                {% if pub.code %}
+                <a href="{{ pub.code }}" class="pub-link">Code</a>
+                {% endif %}
+            </div>
+            {% if pub.abstract or pub.figure %}
+            <div class="pub-abstract" id="pub-{{ forloop.index }}" style="display: none;">
+                {% if pub.figure %}
+                <div class="pub-figure">
+                    <img src="{{ pub.figure | relative_url }}" alt="{{ pub.title }} figure">
+                </div>
+                {% endif %}
+                {% if pub.abstract %}
+                <div class="pub-abstract-text">
+                    <strong>Abstract:</strong> {{ pub.abstract }}
+                </div>
+                {% endif %}
             </div>
             {% endif %}
         </div>
@@ -40,12 +76,26 @@
         const items = document.querySelectorAll('.pub-item');
 
         items.forEach(item => {
-            if (filter === 'all' || item.dataset.category === filter) {
+            const categories = item.dataset.categories ? item.dataset.categories.split(',') : [];
+            if (filter === 'all' || categories.includes(filter)) {
                 item.style.display = 'block';
             } else {
                 item.style.display = 'none';
             }
         });
+    }
+
+    function toggleAbstract(id) {
+        const abstractDiv = document.getElementById(id);
+        const button = event.target;
+
+        if (abstractDiv.style.display === 'none') {
+            abstractDiv.style.display = 'block';
+            button.innerHTML = 'Abstract ▲';
+        } else {
+            abstractDiv.style.display = 'none';
+            button.innerHTML = 'Abstract ▼';
+        }
     }
     </script>
 </section>

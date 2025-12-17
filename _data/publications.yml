@@ -1,58 +1,78 @@
 # Add your publications here (newest first)
-# Fields: title, authors (list), venue, year, url, award, links (list of name/url pairs), category
+# Required fields: title, authors (list), venue, category
+# Optional fields: year, url, award, keywords (list), abstract, figure, full_paper, pdf, slides, video, code
+# Category can be a single value or a list for multiple categories
 # Categories: published, working-paper, conference, journal, etc.
 
-- title: "Your Best Paper: A Novel Approach to Important Problem"
-  authors:
-    - "Your Name"
-    - "Coauthor One"
-    - "Coauthor Two"
-  venue: "Conference on Machine Learning (ICML 2025)"
-  url: "https://arxiv.org/abs/xxxx.xxxxx"
-  award: "Best Paper Award"
-  category: "published"
-  links:
-    - name: "PDF"
-      url: "https://arxiv.org/pdf/xxxx.xxxxx"
-    - name: "Code"
-      url: "https://github.com/you/project"
-    - name: "Project"
-      url: "https://project-page.github.io"
 
-- title: "Another Great Paper on Advanced Topic Research"
+- title: Racial Disparities in Opioid Overdose Deaths in Massachusetts
+  year: 2022
   authors:
-    - "Coauthor One"
-    - "Your Name"
-    - "Coauthor Two"
-  venue: "Neural Information Processing Systems (NeurIPS 2024)"
-  url: "https://arxiv.org/abs/xxxx.xxxxx"
-  category: "published"
-  links:
-    - name: "PDF"
-      url: "https://arxiv.org/pdf/xxxx.xxxxx"
-    - name: "arXiv"
-      url: "https://arxiv.org/abs/xxxx.xxxxx"
+  - Che-Yi Liao
+  - Gian-Gabriel P. Garcia
+  - Catherine DiGennaro
+  - Mohammad S. Jalali
+  venue: JAMA Network Open
+  keywords: ["Opioid-Overdose Deaths","Equity", "Time Series Analysis"]
+  figure: "/assets/images/Racial_Disparities_Opioid_Overdose_Deaths_MA.png"
+  full_paper: "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2791605"
+  category: ["hom"]
 
-- title: "Novel Method for Solving Complex Problems"
+- title: Evaluating patient triage strategies for non-emergency outpatient procedures under reduced capacity due to the covid-19 pandemic
+  year: 2020
   authors:
-    - "Your Name"
-    - "Coauthor One"
-  venue: "Association for Computational Linguistics (ACL 2024)"
-  category: "published"
-  links:
-    - name: "PDF"
-      url: "/assets/papers/acl2024.pdf"
-    - name: "Slides"
-      url: "/assets/slides/acl2024.pdf"
-    - name: "Video"
-      url: "https://youtube.com/watch?v=xxx"
+  - Adam VanDeusen
+  - Che-Yi Liao*
+  - Advaidh Venkat
+  - Amy Cohn
+  - Jacob Kurlander
+  - Sameer Saini
+  venue: 2020 Winter Simulation Conference (WSC)
+  keywords: ["Patient Triage Strategies","COVID-19", "Discrete-Event Simulation"]
+  pdf: "http://simulation.su/uploads/files/default/2020-vandeusen-liao-venkat-cohn-kurlander-saini.pdf"
+  category: ["hom"]
 
-- title: "Early Work on Foundational Concepts"
-  authors:
-    - "Your Name"
-    - "PhD Advisor"
-  venue: "EMNLP 2023"
-  category: "working-paper"
-  links:
-    - name: "PDF"
-      url: "https://aclanthology.org/xxx"
+# - title: "Your Best Paper: A Novel Approach to Important Problem"
+#   authors:
+#     - "Your Name"
+#     - "Coauthor One"
+#     - "Coauthor Two"
+#   venue: "Conference on Machine Learning (ICML 2025)"
+#   year: 2025
+#   url: "https://arxiv.org/abs/xxxx.xxxxx"
+#   award: "Best Paper Award"
+#   category: ["published", "working-paper"]
+#   abstract: "This paper presents a novel approach to solving important problems in machine learning. We demonstrate that our method achieves state-of-the-art results across multiple benchmarks while maintaining computational efficiency. Our contributions include a new theoretical framework and empirical validation on real-world datasets."
+#   figure: "/assets/images/paper1-figure.png"
+#   full_paper: "https://arxiv.org/abs/xxxx.xxxxx"
+#   pdf: "https://arxiv.org/pdf/xxxx.xxxxx"
+#   code: "https://github.com/you/project"
+
+# - title: "Another Great Paper on Advanced Topic Research"
+#   authors:
+#     - "Coauthor One"
+#     - "Your Name"
+#     - "Coauthor Two"
+#   venue: "Neural Information Processing Systems (NeurIPS 2024)"
+#   url: "https://arxiv.org/abs/xxxx.xxxxx"
+#   category: "published"
+#   full_paper: "https://arxiv.org/abs/xxxx.xxxxx"
+#   pdf: "https://arxiv.org/pdf/xxxx.xxxxx"
+
+# - title: "Novel Method for Solving Complex Problems"
+#   authors:
+#     - "Your Name"
+#     - "Coauthor One"
+#   venue: "Association for Computational Linguistics (ACL 2024)"
+#   category: "published"
+#   pdf: "/assets/papers/acl2024.pdf"
+#   slides: "/assets/slides/acl2024.pdf"
+#   video: "https://youtube.com/watch?v=xxx"
+
+# - title: "Early Work on Foundational Concepts"
+#   authors:
+#     - "Your Name"
+#     - "PhD Advisor"
+#   venue: "EMNLP 2023"
+#   category: "working-paper"
+#   pdf: "https://aclanthology.org/xxx"

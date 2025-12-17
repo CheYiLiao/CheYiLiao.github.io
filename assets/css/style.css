@@ -316,6 +316,13 @@ section:nth-child(even) {
     box-shadow: 0 0 0 3px rgba(163, 143, 97, 0.1);
 }
 
+.pub-filter-note {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+
 .pub-item {
     padding: 1.25rem 0;
     border-bottom: 1px solid var(--border-color);
@@ -346,6 +353,13 @@ section:nth-child(even) {
     margin-bottom: 0.25rem;
 }
 
+.pub-year {
+    font-weight: 400;
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    margin-left: 0.5rem;
+}
+
 .pub-venue {
     color: var(--text-muted);
     font-style: italic;
@@ -355,6 +369,17 @@ section:nth-child(even) {
 .pub-award {
     font-style: normal;
     margin-left: 0.5rem;
+}
+
+.pub-keywords {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+.pub-keywords strong {
+    color: var(--text-dark);
+    font-weight: 500;
 }
 
 .pub-links {
@@ -377,6 +402,38 @@ section:nth-child(even) {
     background: var(--primary-color);
     color: white;
     text-decoration: none;
+}
+
+.pub-toggle {
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+}
+
+.pub-abstract {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: var(--bg-light);
+    border-radius: 6px;
+    border-left: 3px solid var(--primary-color);
+}
+
+.pub-figure {
+    margin-bottom: 1rem;
+}
+
+.pub-figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.pub-abstract-text {
+    line-height: 1.6;
+    color: var(--text-dark);
+    font-size: 0.95rem;
+    text-align: justify;
 }
 
 /* Services Section */

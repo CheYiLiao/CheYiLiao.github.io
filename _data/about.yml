@@ -3,7 +3,7 @@ content: |
   I am a **PhD Candidate in Machine Learning** at **Georgia Institute of Technology**, specializing in **high-stakes applications** of AI, Statistics, and Operations Research and driving real-world impact by translating complex data into **production-scale robust solutions**.
 
   My job market research focuses on **Data-Efficient Personalized LLMs and Constrained Alignment**, where I developed a **provably safe and empirically efficient RLHF variant**.
-  Validated on a personalized treatment recommendation case study combining **tabular and multivariate time-series clinical data**, this work achieved +130% in reliability of the generated treatment trajectories and -23% in effort-to-change. [*Link to paper*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5642250)
+  Validated on a personalized treatment recommendation case study combining **tabular and multivariate time-series clinical data**, this work achieved +130% in reliability of the generated treatment trajectories and -23% in patients' effort-to-change. [*Link to paper*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5642250)
 
 
   My industrial experience includes an internship at Meta, where I optimized **ads ranking** using foundational model knowledge distillation and built **full-stack ML pipelines** from data ingestion to model design and deployment.
