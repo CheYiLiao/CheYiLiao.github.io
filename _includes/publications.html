@@ -2,8 +2,17 @@
     <div class="section-container reveal">
         <h2 class="section-title">Publications</h2>
 
+        <div class="pub-filter">
+            <label for="pub-category-filter">Filter by type:</label>
+            <select id="pub-category-filter" onchange="filterPublications()">
+                <option value="all">All</option>
+                <option value="published">Published Papers</option>
+                <option value="working-paper">Working Papers</option>
+            </select>
+        </div>
+
         {% for pub in site.data.publications %}
-        <div class="pub-item">
+        <div class="pub-item" data-category="{{ pub.category }}">
             <div class="pub-title">
                 {% if pub.url %}<a href="{{ pub.url }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}
             </div>
@@ -24,4 +33,19 @@
         </div>
         {% endfor %}
     </div>
+
+    <script>
+    function filterPublications() {
+        const filter = document.getElementById('pub-category-filter').value;
+        const items = document.querySelectorAll('.pub-item');
+
+        items.forEach(item => {
+            if (filter === 'all' || item.dataset.category === filter) {
+                item.style.display = 'block';
+            } else {
+                item.style.display = 'none';
+            }
+        });
+    }
+    </script>
 </section>

@@ -4,6 +4,7 @@
             <img src="{{ site.author.photo | default: 'https://via.placeholder.com/200x200?text=Photo' | relative_url }}" 
                  alt="{{ site.author.name }}" class="profile-image">
             <h1>{{ site.author.name }}</h1>
+            <h2>{{ site.author.chinese_name }}</h2>
             {% if site.author.titles %}
             {% for til in site.author.titles %}
             <p class="profile-title">

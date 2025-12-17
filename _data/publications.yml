@@ -1,5 +1,6 @@
 # Add your publications here (newest first)
-# Fields: title, authors (list), venue, year, url, award, links (list of name/url pairs)
+# Fields: title, authors (list), venue, year, url, award, links (list of name/url pairs), category
+# Categories: published, working-paper, conference, journal, etc.
 
 - title: "Your Best Paper: A Novel Approach to Important Problem"
   authors:
@@ -9,6 +10,7 @@
   venue: "Conference on Machine Learning (ICML 2025)"
   url: "https://arxiv.org/abs/xxxx.xxxxx"
   award: "Best Paper Award"
+  category: "published"
   links:
     - name: "PDF"
       url: "https://arxiv.org/pdf/xxxx.xxxxx"
@@ -24,6 +26,7 @@
     - "Coauthor Two"
   venue: "Neural Information Processing Systems (NeurIPS 2024)"
   url: "https://arxiv.org/abs/xxxx.xxxxx"
+  category: "published"
   links:
     - name: "PDF"
       url: "https://arxiv.org/pdf/xxxx.xxxxx"
@@ -35,6 +38,7 @@
     - "Your Name"
     - "Coauthor One"
   venue: "Association for Computational Linguistics (ACL 2024)"
+  category: "published"
   links:
     - name: "PDF"
       url: "/assets/papers/acl2024.pdf"
@@ -48,6 +52,7 @@
     - "Your Name"
     - "PhD Advisor"
   venue: "EMNLP 2023"
+  category: "working-paper"
   links:
     - name: "PDF"
       url: "https://aclanthology.org/xxx"
