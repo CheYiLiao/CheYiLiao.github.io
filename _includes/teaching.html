@@ -12,6 +12,16 @@
         {% endfor %}
         {% endif %}
 
+        {% if site.data.teaching.teaching_assistant %}
+        <h3 class="teaching-heading">Teaching Assistant</h3>
+        {% for course in site.data.teaching.teaching_assistant %}
+        <div class="teaching-item">
+            <h4>{% if course.url %}<a href="{{ course.url }}">{{ course.code }}: {{ course.name }}</a>{% else %}{{ course.code }}: {{ course.name }}{% endif %}</h4>
+            <p class="teaching-meta">{{ course.university }}, {{ course.term }}</p>
+        </div>
+        {% endfor %}
+        {% endif %}
+
         {% if site.data.teaching.guest_lecturer %}
         <h3 class="teaching-heading">Guest Lecturer</h3>
         {% for lecture in site.data.teaching.guest_lecturer %}

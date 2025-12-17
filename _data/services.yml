@@ -1,22 +1,31 @@
 # Academic service - use 'items' for lists, 'content' for inline text
 
-- title: "Organizing Committee"
+- title: "Session Chair"
   items:
-    - "ACL 2025 (Workshop Chair)"
-    - "NeurIPS 2024 Workshop on Topic (Organizer)"
-    - "EMNLP 2024 (Publicity Chair)"
+    - INFORMS 2023 Annual Meeting (Session on Healthcare Analytics in Emerging Data Settings)
 
-- title: "Area Chair"
-  content: "ACL (from 2024), EMNLP (from 2024), NeurIPS (from 2025)"
+- title: "Journal Reviewer"
+  items: 
+    - IEEE Transactions on Automation Science and Engineering (IEEE-TASE)
+    - Healthcare Management Science (HCMS)
 
-- title: "Senior Program Committee"
-  content: "AAAI (from 2024), IJCAI (from 2024)"
+- title: "Conference Paper Reviewer"
+  items:
+    - IISE 2024 Annual Conference & Expo
 
-- title: "Program Committee / Reviewer"
-  content: "ACL, EMNLP, NAACL, NeurIPS, ICML, ICLR, CVPR, AAAI, TACL, JMLR"
+- title: "Research Award Reviewer"
+  items:
+    - 2024 Georgia Tech President’s Undergraduate Research Awards
+    - 2023 Georgia Tech President’s Undergraduate Research Awards
+    - 2023 Georgia Tech Annual Undergraduate Research Symposium
+    - 2022 Georgia Tech President’s Undergraduate Research Awards
+
+- title: "Conference Abstract Reviewer"
+  items:
+    - SMDM 2024 Annual Meeting
+    - SMDM 2023 Annual Meeting
 
 - title: "Community Service"
   items:
-    - "Student Research Workshop Mentor, ACL 2024"
-    - "PhD Application Mentorship Program, 2023-present"
-    - "Graduate Student Representative, Department Visit Day, 2022"
+    - "2023-2024 Student Liaison, INFORMS Health Applications Society"
+    - "2022-2023 Student Liaison, INFORMS Health Applications Society"

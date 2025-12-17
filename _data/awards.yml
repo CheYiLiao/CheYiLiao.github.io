@@ -1,29 +1,50 @@
 # Awards and honors (newest first)
 # Fields: name, from (optional - organization), year
 
-- name: "Best Paper Award"
-  from: "ICML 2025"
-  year: "2025"
+- name: George Family Fellowship for Research Excellence
+  from: Georgia Tech
+  year: 2025
 
-- name: "Outstanding Dissertation Award"
-  from: "University Name"
-  year: "2024"
+- name: Seth Bonder Scholarship for Applied Operations Research in Health Services
+  from: INFORMS
+  year: 2024
 
-- name: "Rising Star in ML"
-  from: "ML Collective"
-  year: "2023"
+- name: Thos and Clair Muller Research Fellowship for Research Excellence
+  from: Georgia Tech
+  year: 2024
 
-- name: "Research Fellowship"
-  from: "NSF"
-  year: "2022"
+- name: George Family Fellowship for Research Excellence
+  from: Georgia Tech
+  year: 2024
 
-- name: "Best Demo Paper Award"
-  from: "ACL 2022"
-  year: "2022"
+- name: Gold Student Scholorship
+  from: INFORMS Workshop on Data Science
+  year: 2023
 
-- name: "Graduate Fellowship"
-  from: "Your University"
-  year: "2020-2024"
+- name: Stephen Pauker Award in Quantitative Methods (Finalist)
+  from: Socierty of Medical Decision Making (SMDM)
+  year: 2023
 
-- name: "National Scholarship"
-  year: "2019"
+- name: George Family Fellowship for Research Excellence
+  from: Georgia Tech
+  year: 2023
+
+- name: Stephen Pauker Award in Quantitative Methods
+  from: Socierty of Medical Decision Making (SMDM)
+  year: 2022
+
+- name: George Family Fellowship for Research Excellence
+  from: Georgia Tech
+  year: 2022
+
+- name: McLean Fellowship for Distinguished Incoming Student
+  from: Georgia Tech
+  year: 2021
+
+- name: Clyde W. and Nadra S. Johnson Award for Research Excellence
+  from: UMich
+  year: 2021
+
+- name: Seth Bonder Fellowship
+  from: UMich Center for Healthcare Engineering & Patient Safety
+  year: 2021

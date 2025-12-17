@@ -6,8 +6,10 @@
             <label for="pub-category-filter">Filter by type:</label>
             <select id="pub-category-filter" onchange="filterPublications()">
                 <option value="all">All</option>
-                <option value="hom">Healthcare Operations Management</option>
-                <option value="working-paper">Papers in</option>
+                <option value="aiml">AI/ML</option>
+                <option value="stl">Statistical Learning</option>
+                <option value="llm">Large Language Models</option>
+                <option value="haom">Healthcare Analytics & Operations Management</option>
             </select>
         </div>
         <div class="pub-filter-note">
@@ -25,16 +27,34 @@
             </div>
             <div class="pub-venue">
                 {{ pub.venue }}
-                {% if pub.award %}<span class="pub-award">🏆 {{ pub.award }}</span>{% endif %}
             </div>
             {% if pub.keywords %}
             <div class="pub-keywords">
                 <strong>Keywords:</strong> {{ pub.keywords | join: ", " }}
             </div>
             {% endif %}
+            {% if pub.colab %}
+            <div class="pub-colab">
+                <strong>Collaboration:</strong> {{ pub.colab | join: ", " }}
+            </div>
+            {% endif %}
+            {% if pub.award %}
+            <div class="pub-award-section">
+                {% if pub.award.first %}
+                {% for award_item in pub.award %}
+                🏆 {{ award_item }}<br>
+                {% endfor %}
+                {% else %}
+                🏆 {{ pub.award }}
+                {% endif %}
+            </div>
+            {% endif %}
             <div class="pub-links">
                 {% if pub.abstract or pub.figure %}
                 <button class="pub-link pub-toggle" onclick="toggleAbstract('pub-{{ forloop.index }}')">Abstract ▼</button>
+                {% endif %}
+                {% if pub.preprint %}
+                <a href="{{ pub.preprint }}" class="pub-link">Preprint</a>
                 {% endif %}
                 {% if pub.full_paper %}
                 <a href="{{ pub.full_paper }}" class="pub-link">Full Paper</a>
@@ -57,11 +77,14 @@
                 {% if pub.figure %}
                 <div class="pub-figure">
                     <img src="{{ pub.figure | relative_url }}" alt="{{ pub.title }} figure">
+                    {% if pub.figure_caption %}
+                    <div class="pub-figure-caption">{{ pub.figure_caption }}</div>
+                    {% endif %}
                 </div>
                 {% endif %}
                 {% if pub.abstract %}
                 <div class="pub-abstract-text">
-                    <strong>Abstract:</strong> {{ pub.abstract }}
+                    <strong>Abstract:</strong> {{ pub.abstract | markdownify }}
                 </div>
                 {% endif %}
             </div>

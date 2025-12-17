@@ -382,6 +382,23 @@ section:nth-child(even) {
     font-weight: 500;
 }
 
+.pub-colab {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin-top: 0.25rem;
+}
+
+.pub-colab strong {
+    color: var(--text-dark);
+    font-weight: 500;
+}
+
+.pub-award-section {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin-top: 0.25rem;
+}
+
 .pub-links {
     margin-top: 0.5rem;
     display: flex;
@@ -427,6 +444,14 @@ section:nth-child(even) {
     height: auto;
     border-radius: 4px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.pub-figure-caption {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    font-style: italic;
+    text-align: center;
 }
 
 .pub-abstract-text {

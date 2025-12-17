@@ -1,30 +1,25 @@
 # Teaching - separate sections for instructor and guest lecturer roles
 
-instructor:
-  - code: "CS 496"
-    name: "Advanced Topics in Machine Learning"
-    university: "Your University"
-    term: "Spring 2025"
-    url: "/teaching/cs496"
+# instructor:
 
-  - code: "CS 396"
-    name: "Introduction to Deep Learning"
-    university: "Your University"
-    term: "Fall 2024"
-    url: "/teaching/cs396"
+teaching_assistant:
+  - code: "ISYE 6525"
+    name: "High Dimensional Data Analysis"
+    university: "Georgia Tech"
+    term: "Fall 2025"
+
+  - code: "ISYE 4031"
+    name: "Regression and Forecasting"
+    university: "Georgia Tech"
+    term: "Spring 2022"
+
+  - code: "ISYE 2027"
+    name: "Probability wih Applications"
+    university: "Georgia Tech"
+    term: "Fall 2021"
 
 guest_lecturer:
-  - topic: "Transformers and Attention Mechanisms"
-    course: "CS 598 Advanced NLP"
-    university: "Other University"
+  - topic: PhD School on Towards Zero Emissions Mobility
+    course: High Dimensional Data Analysis
+    university: University of Naples Federico II
     term: "Fall 2024"
-
-  - topic: "Multimodal Learning"
-    course: "CS 546 Machine Learning"
-    university: "Your University"
-    term: "Spring 2024"
-
-  - topic: "Research Methods in AI"
-    course: "CS 500 Graduate Seminar"
-    university: "Your University"
-    term: "Fall 2023"

@@ -1,9 +1,216 @@
 # Add your publications here (newest first)
 # Required fields: title, authors (list), venue, category
-# Optional fields: year, url, award, keywords (list), abstract, figure, full_paper, pdf, slides, video, code
+# Optional fields: year, url, award, keywords (list), colab (list), abstract, figure, figure_caption, preprint, full_paper, pdf, slides, video, code
 # Category can be a single value or a list for multiple categories
 # Categories: published, working-paper, conference, journal, etc.
 
+- title: |
+    Knowledge Distillation for Process Control(tentative)
+  year: 2025
+  authors:
+  - Che-Yi Liao
+  - Gian-Gabriel P. Garcia
+  - Kamran Paynabar
+  # venue: Under Review
+  keywords: [Process Control, LLM Knowledge Distillation]
+  colab: ["Georgia Tech", "UW"]
+  category: [aiml, llm]
+
+- title: |
+    Imputing Multivariate Time Series (tentative)
+  year: 2025
+  authors:
+  - Che-Yi Liao
+  - Zheng Dong
+  - Gian-Gabriel P. Garcia
+  - Kamran Paynabar
+  # venue: Under Review
+  keywords: [Data Imputation]
+  colab: ["Georgia Tech", "UW", "Amazon"]
+  category: [aiml]
+
+- title: |
+    Constraint-Aware Self-Improving Large Language Model for Clinical Role Model Generation
+  year: 2025
+  authors:
+  - Che-Yi Liao
+  - Esmaeil Keyvanshokooh
+  - Gian-Gabriel P. Garcia 
+  venue: Under Review
+  keywords: [Personalized Medicine, Uncertainty in AI/ML Diagnosis, 
+    LLM Constrained Alignment, LLM Personalization, Active Learning]
+  colab: ["Georgia Tech", "Texas A&M", "UW", "Emory University"]
+  preprint: |
+    https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5642250
+  abstract: |
+    Personalized medicine uses Clinical Role Models (CRMs) -- individuals with similar health profiles -- 
+    to build patient trust. However, CRM identification is challenged by data scarcity and privacy 
+    constraints. While Medical Large Language Models (MLLMs) can synthesize CRMs, they risk generating 
+    invalid *hallucinations* and face inconsistencies from evolving risk-scoring tools. 
+    
+    We propose CASE (Constraint-Aware active SElfimproving fine-tuning), which integrates data-driven 
+    optimization with MLLM's generative capabilities to produce reliable CRMs. CASE employs a 
+    robust-optimization-based verifier to ensure CRMs are clinically valid, meeting patient requirements and 
+    reducing risk. Verified examples are then used to fine-tune the MLLM in a self-improving loop. We 
+    developed an active learning algorithm with utility-driven sampling and provide rigorous theoretical 
+    guarantees including high-probability sublinear regrets of the learning algorithm and patient safety 
+    guarantees of CASE. From clinical and survey data, we found that generated CRMs outperform real CRMs 
+    by> 130% in reliability and 23% in Effort-to-Change reduction. We also found that a clear learning 
+    signal determines the outcomes of the fine-tuned model. Our work presents a novel integration of 
+    data-driven optimization and generative AI to enhance trust and decision-making in personalized medicine.
+  figure: |
+    assets/images/case.png
+  figure_caption: |
+    Figure: Progression of Reliability Probability and the Lowest Effort to Change across Finetuning Iterations, 
+    averaged across Patients. Iteration 0: Warm-Start. REL: Reliability Sampling, EtC-IMP: Lowest Effort to 
+    Change Improvement Sampling, UNIF: Uniform Sampling, CT-INV: Count-Inverse Sampling, UnREL: Unreliable 
+    Sampling, CASE: Constraint-Aware Active Self-Improving Finetuning. τ: Safety Threshold.
+  category: [llm, aiml]
+
+- title: |
+    Augmenting Individualized Treatment Planning via Data-Driven Clinical Role Model Selection
+  year: 2025
+  authors:
+  - Che-Yi Liao
+  - Esmaeil Keyvanshokooh
+  - Francisco J Pasquel
+  - Gian-Gabriel P. Garcia 
+  venue: Under Major Revision
+  keywords: ["Personalized Medicine", "Uncertainty in AI/ML Diagnosis", 
+    Data-Driven Distributionally Robust Optimization, "Active Learning"]
+  colab: ["Georgia Tech", "Texas A&M", "UW", "Emory University"]
+  award: 
+    - Finalist of 2023 Lee B. Lusted Student Prize Competition (QMTD Track)
+  category: [aiml,haom]
+
+- title: "Tides Need STEMMED: A Locally Operating Spatio-Temporal Mutually Exciting Point Process with Dynamic Network for Improving Opioid Overdose Death Prediction"
+  year: 2025
+  authors:
+  - Che-Yi Liao
+  - Zheng Dong
+  - Gian-Gabriel P. Garcia 
+  - Kamran Paynabar 
+  - Yao Xie
+  - Mohammad S. Jalali
+  venue: Manufacturing & Service Operations Management (MSOM)
+  keywords: ["Opioid-Overdose Deaths", "Spatiotemporal Modeling", "Point-Process Network", "Data-Sharing Policies"]
+  colab: ["Georgia Tech", "MIT", "Harvard Medical School"]
+  full_paper: "https://pubsonline.informs.org/doi/full/10.1287/msom.2024.0946"
+  abstract: |
+    **Problem definition:** Efforts to mitigate the U.S. opioid crisis have been complicated by 
+    ever-changing trends in opioid overdose deaths (OODs) across communities and drug types. 
+    Public health surveillance efforts are hampered by these challenges, making prediction of 
+    local OOD trends and coordination across communities critical. 
+    In this research, we design a model-based public health surveillance system capable of leveraging 
+    implicit connections between past and future OODs, thereby operating across locales and providing 
+    accurate local and global forecasts and unique insights of OOD trends. 
+    
+    **Methodology/results:** We develop a spatiotemporal mutually exciting point process with dynamic 
+    network (STEMMED): a point process network wherein each node models a unique community–drug event stream 
+    with a dynamic mutually exciting structure, accounting for influences from other nodes. STEMMED 
+    can be decomposed node-by-node, suggesting that it can be tractably parameterized via distributed 
+    learning. Leveraging this decomposability, we outline an online cooperative forecasting procedure among 
+    local communities and characterize data-sharing approaches among local entities, including strategies 
+    based on drug types, geographical affiliations, and proximity. We then conduct a numerical study 
+    wherein we parameterize STEMMED using individual-level OOD data and city-level demographics in
+    Massachusetts. In our off-line analysis, we identify a notable cluster formation process of OODs 
+    centered around Boston. Additionally, our analysis indicates a growing link between fentanyl and 
+    psychostimulants over time. Then, in the online model deployment setting, we find that STEMMED 
+    outperforms well-established forecasting models and that drug-based data-sharing policies across cities 
+    offer advantages over distance-based county-based and distance-based data-sharing policies. 
+    Further, a STEMMED-based OOD surveillance system achieves more than 40% improvement in detection delays 
+    relative to evidence-based surveillance systems that are currently hindered by considerable data lags. 
+    
+    **Managerial implications:** STEMMED provides accurate forecasts of local OOD trends and highlights 
+    complex interactions between OODs across communities and drug types, informing the design and facilitating 
+    the timing of impactful policy interventions."
+  figure: "assets/images/tides.png"
+  figure_caption: |
+    Figure: Spatiotemporal Dynamics of OOD Connections: Drug-Type and City Interactions in Massachusetts.
+  award: 
+    - Winner of 2022 Lee B. Lusted Student Prize Competition (QMTD Track)
+    - Gold Student Scholorship in 2023 INFORMS Workshop on Data Science
+  category: [stl, haom]
+
+- title: Balancing access, precision, and equity in adaptive test site allocation with an application to COVID-19 in Atlanta, Georgia
+  year: 2025
+  authors:
+  - Thomas W Hsiao*
+  - Che-Yi Liao*
+  - Lance A Waller
+  - Kamran Paynabar
+  venue: Scientific Reports
+  keywords: ["Sequential Testing Site Allocation", "Health Equity", "Spatiotemporal Modeling", "Multi-Objective Optimization"]
+  colab: ["Georgia Tech", "Emory University"]
+  full_paper: "https://www.nature.com/articles/s41598-025-13804-8"
+  abstract: |
+    Emergency pandemic disease surveillance encompasses a suite of public health data-based measures to
+    monitor and prevent further spread of disease. Early in the COVID-19 pandemic, one important method for 
+    monitoring local spread of infection involved the deployment of local testing sites. 
+    However, key concerns for the accuracy and completeness of any surveillance system include local access 
+    to testing sites, precision in the estimates of disease incidence and prediction of its spatiotemporal 
+    trajectory, and racial equity in testing availability, concerns often not rigorously taken into account 
+    in public health policy-making, especially during a public health emergency. In addition, the rapid local 
+    transmission dynamics of an infectious disease outbreak often require methods able to react to spontaneous 
+    hotspots and disease clusters in or near real-time. To address these competing objectives, we integrate 
+    Bayesian spatiotemporal disease modeling using COVID-19 case data into a multi-objective optimization 
+    solved by an interior-point approach. We show the adaptive multi-objective method outperforms non-adaptive 
+    test-site allocation in terms of time and resources required, and sacrifices minimal performance compared 
+    to methods optimizing a single objective criteria. We hope our method can be used to improve test-site 
+    allocation procedures for future local and seasonal outbreaks and broader pandemics.
+  figure: "assets/images/balancing.png"
+  figure_caption: |
+    Figure: Objective function score over time for the total and individual components for each of the 
+    allocation methods under study.
+  category: [stl, haom]
+
+- title: A Responsible Framework for Assessing, Selecting, and Explaining Machine Learning Models in Cardiovascular Disease Outcomes Among People With Type 2 Diabetes - Methodology and Validation Study
+  year: 2025
+  authors:
+  - Yang Yang*
+  - Che-Yi Liao*
+  - Esmaeil Keyvanshokooh
+  - Hui Shao
+  - Mary Beth Weber
+  - Francisco J Pasquel
+  - Gian-Gabriel P Garcia
+  venue: JMIR Medical Informatics
+  keywords: ["Chronic Disease Management", "Explainable AI", "Multi-Criteria Decision Making"]
+  colab: ["Georgia Tech", "Texas A&M", "Emory University"]
+  full_paper: "https://medinform.jmir.org/2025/1/e66200"
+  category: [haom]
+
+- title: Estimating Hidden Epidemic - A Bayesian Spatiotemporal Compartmental Modeling Approach
+  year: 2025
+  authors:
+  - Che-Yi Liao*
+  - Peiliang Bai*
+  - Lance A. Waller
+  - Paynabar Kamran
+  venue: INFORMS Journal on Data Science
+  keywords: ["Hidden Epidemic","Stochastic Compartmental Modeling", "Bayesian Spatiotemporal Modeling"]
+  colab: ["Georgia Tech", "Emory University"]
+  full_paper: "https://pubsonline.informs.org/doi/full/10.1287/ijds.2023.0020"
+  abstract: |
+    Efforts to mitigate public health crises have been complicated by unreported cases and the ever-changing 
+    trends of those monitored health events across geographic regions and socioeconomic cultures. To resolve 
+    both challenges, we propose a Bayesian spatiotemporal susceptible-exposed-infected-recovered-removed 
+    (BayST-SEIRD) framework that builds the hidden effects of neighboring communities, local features, and 
+    the reporting rates into its transmission mechanism. To alleviate the computational burdens embedded in a 
+    fully Bayesian algorithm, we propose an alternating approach that learns the compartmental structure and 
+    the spatial effects separately. With a simulation study, we show that this algorithm can accurately 
+    retrieve our designed system. Then, we apply BayST-SEIRD to model the coronavirus disease 2019 (COVID-19) 
+    dynamics in the metropolitan Atlanta area. We observe that most counties' reporting rates were below 10% 
+    of the projected total infected population and that age and educational level are negatively correlated 
+    with the exposing rate, suggesting the needs for stronger incentives for COVID-19 testing and quarantine 
+    among the younger population. Importantly, BayST-SEIRD facilitates the reconstruction of actual case 
+    counts of the monitored subject among neighboring communities, which is critical to designing impactful 
+    public health policy interventions.
+  figure: "assets/images/estimate_hidden_epidemic.png"
+  figure_caption: |
+    Figure: (Left Panel) Estimated Testing Rate by County in Georgia and 
+    (Right Panel) Percentage of Unreported Cases Throughout the Study Period for Each County.
+  category: [stl,haom]
 
 - title: Racial Disparities in Opioid Overdose Deaths in Massachusetts
   year: 2022
@@ -13,10 +220,10 @@
   - Catherine DiGennaro
   - Mohammad S. Jalali
   venue: JAMA Network Open
-  keywords: ["Opioid-Overdose Deaths","Equity", "Time Series Analysis"]
-  figure: "/assets/images/Racial_Disparities_Opioid_Overdose_Deaths_MA.png"
+  keywords: ["Opioid-Overdose Deaths","Health Equity", "Time Series Analysis"]
+  colab: ["Georgia Tech", "MIT", "Harvard Medical School"]
   full_paper: "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2791605"
-  category: ["hom"]
+  category: [haom]
 
 - title: Evaluating patient triage strategies for non-emergency outpatient procedures under reduced capacity due to the covid-19 pandemic
   year: 2020
@@ -30,7 +237,7 @@
   venue: 2020 Winter Simulation Conference (WSC)
   keywords: ["Patient Triage Strategies","COVID-19", "Discrete-Event Simulation"]
   pdf: "http://simulation.su/uploads/files/default/2020-vandeusen-liao-venkat-cohn-kurlander-saini.pdf"
-  category: ["hom"]
+  category: [haom]
 
 # - title: "Your Best Paper: A Novel Approach to Important Problem"
 #   authors:
@@ -42,7 +249,8 @@
 #   url: "https://arxiv.org/abs/xxxx.xxxxx"
 #   award: "Best Paper Award"
 #   category: ["published", "working-paper"]
-#   abstract: "This paper presents a novel approach to solving important problems in machine learning. We demonstrate that our method achieves state-of-the-art results across multiple benchmarks while maintaining computational efficiency. Our contributions include a new theoretical framework and empirical validation on real-world datasets."
+#   abstract: |
+#     This paper presents a novel approach to solving important problems in machine learning
 #   figure: "/assets/images/paper1-figure.png"
 #   full_paper: "https://arxiv.org/abs/xxxx.xxxxx"
 #   pdf: "https://arxiv.org/pdf/xxxx.xxxxx"
