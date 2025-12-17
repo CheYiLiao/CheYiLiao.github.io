@@ -114,8 +114,9 @@ To preview changes locally before pushing:
 gem install bundler jekyll
 
 # Run local server
+bundle init
+bundle add jekyll
 bundle exec jekyll serve
-
 # View at http://localhost:4000
 ```
 
