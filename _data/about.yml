@@ -1,15 +1,30 @@
 # Your bio/about content (supports Markdown)
 content: |
-  I am a **PhD Candidate in Machine Learning** at **Georgia Institute of Technology**, specializing in **high-stakes applications** of AI, Statistics, and Operations Research and driving real-world impact by translating complex data into **production-scale robust solutions**.
+  I am a **PhD Candidate in Machine Learning** at **Georgia Institute of Technology**, 
+  developing **robust AI systems** for real-world high-stakes applications. My work integrates 
+  methods from **AI/ML**, **Statistics**, and **Operations Research**.
 
-  My job market research focuses on **Data-Efficient Personalized LLMs and Constrained Alignment**, where I developed a **provably safe and empirically efficient RLHF variant**.
-  Validated on a personalized treatment recommendation case study combining **tabular and multivariate time-series clinical data**, this work achieved +130% in reliability of the generated treatment trajectories and -23% in patients' effort-to-change. [*Link to paper*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5642250)
+  My current research focuses on **data-efficient personalized LLMs** and **constrained alignment**. 
+  I developed a **provably safe RLHF variant** and validated it on personalized treatment recommendations 
+  by **fusing tabular survey data and multivariate clinical time series**, achieving **+130% 
+  reliability** in generated treatment trajectories and **-23% patient effort-to-change**,
+  compared to real treatment trajectories and benchmark algorithms. 
+  [*[Link to Paper]*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5642250)
 
+  On the industry side, I interned at **Meta**, where I optimized **early-stage ads ranking** via advanced 
+  **deep learning architectures** and **foundation model knowledge distillation**, while building **end-to-end 
+  validation pipelines** from data ingestion to deployment.
+  
+  I enjoy **cross-functional collaboration**, with extensive experience working with 
+  **researchers and engineers**
+  on theoretical and technical constraints (Meta, Bosch) and partnering with **medical practitioners** 
+  on 
+  clinical validity (Michigan Medicine, Emory Hospital, VA Hospital, Georgia DPH).
+  
+  <div style="font-size: 0.5rem; text-align: center; margin: 0.5rem 0; color: #a38f61;">***</div>
 
-  My industrial experience includes an internship at Meta, where I optimized **ads ranking** using foundational model knowledge distillation and built **full-stack ML pipelines** from data ingestion to model design and deployment.
+  *<mark>I am actively seeking an AI Research Scientist position starting in May 2026.</mark>*
+  I am especially interested in roles focused on efficient LLM/Agent personalization and alignment for 
+  business process modeling.
 
-  I have a strong track record of **cross-functional collaboration**, working comfortably with researchers, engineers, and domain experts. My experience spans aligning technical designs with business constraints alongside engineers (Meta, Bosch) and partnering with medical experts (Michigan Medicine, Emory Hospital, VA Hospital, State Department of Public Health) to ensure clinical validity.
-
-  *<mark>I am actively seeking an AI Research Scientist position starting in May 2026.</mark>* I am particularly enthusiastic about roles focused on LLM/Agent personalization and alignment, eager to contribute to frontier AI solutions within a collaborative team.
-
-  **Research Interests:** Personalized LLM, Constrained Alignment, AI for Business Process Modeling
+  **Research Interests:** Data Curation, Personalized LLM, Constrained Alignment, AI for Business Process Modeling
