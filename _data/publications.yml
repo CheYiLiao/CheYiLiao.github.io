@@ -38,7 +38,7 @@
   - Gian-Gabriel P. Garcia 
   venue: Under Review
   keywords: [Personalized Medicine, Uncertainty in AI/ML Diagnosis, 
-    LLM Constrained Alignment, LLM Personalization, Active Learning]
+    LLM Constrained Alignment, LLM Personalization, Active Learning, RLHF-type Alignment]
   colab: ["Georgia Tech", "Texas A&M", "UW", "Emory University"]
   preprint: |
     https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5642250
