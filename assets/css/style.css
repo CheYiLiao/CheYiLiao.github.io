@@ -1,3 +1,46 @@
+/* Aileron Font */
+@font-face {
+    font-family: 'Aileron';
+    src: url('../fonts/aileron/Aileron-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('../fonts/aileron/Aileron-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('../fonts/aileron/Aileron-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('../fonts/aileron/Aileron-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('../fonts/aileron/Aileron-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('../fonts/aileron/Aileron-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+}
+
 :root {
     --primary-color: #a38f61;
     --primary-dark: #0d47a1;
@@ -20,7 +63,7 @@ html {
 }
 
 body {
-    font-family: 'Lato', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: 'Aileron', -apple-system, BlinkMacSystemFont, sans-serif;
     font-size: 16px;
     line-height: 1.65;
     color: var(--text-dark);
@@ -319,7 +362,6 @@ section:nth-child(even) {
 .pub-filter-note {
     font-size: 0.85rem;
     color: var(--text-muted);
-    font-style: italic;
     margin-bottom: 1.5rem;
 }
 
