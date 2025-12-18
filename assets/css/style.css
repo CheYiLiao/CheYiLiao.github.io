@@ -162,7 +162,7 @@ nav {
 
 .profile-affiliation {
     color: var(--text-muted);
-    font-size: 0.7rem;
+    font-size: 0.65rem;
     margin-bottom: 0rem;
 }
 
@@ -324,12 +324,42 @@ section:nth-child(even) {
 }
 
 .pub-item {
-    padding: 1.25rem 0;
+    padding: 0.5rem 0;
     border-bottom: 1px solid var(--border-color);
 }
 
 .pub-item:last-child {
     border-bottom: none;
+}
+
+.pub-content-wrapper {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.pub-thumbnail {
+    flex-shrink: 0;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-light);
+    border-radius: 1px;
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+}
+
+.pub-thumbnail img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.pub-content {
+    flex: 1;
+    min-width: 0;
 }
 
 .pub-title {
@@ -487,27 +517,96 @@ section:nth-child(even) {
 }
 
 /* Awards Section */
+.award-year-group {
+    margin-bottom: 1.5rem;
+}
+
+.award-year-header {
+    color: var(--primary-color);
+    font-size: 0.95rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
 .awards-list {
     list-style: none;
 }
 
-.awards-list li {
-    padding: 0.6rem 0;
-    padding-left: 1.5rem;
-    position: relative;
+.award-item-wrapper {
+    padding: 0rem 0;
 }
 
-.awards-list li::before {
+.award-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--text-dark);
+}
+
+.award-icon {
+    font-size: 0.85rem;
+    flex-shrink: 0;
+}
+
+.award-icon-paper {
+    color: #ffd700;
+}
+
+.award-icon-personal {
+    color: #ffd700;
+}
+
+.award-title {
+    color: var(--text-dark);
+}
+
+.award-title em {
+    font-style: italic;
+}
+
+.award-comment-wrapper {
+    margin-top: 0.25rem;
+    padding-left: 1.4rem;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+}
+
+.award-comment-wrapper p {
+    margin: 0.1rem 0;
+    color: var(--text-muted);
+}
+
+.award-comment-wrapper ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0.1rem 0;
+}
+
+.award-comment-wrapper ul li {
+    position: relative;
+    padding-left: 1rem;
+    margin: 0.1rem 0;
+}
+
+.award-comment-wrapper ul li::before {
     content: "•";
     position: absolute;
     left: 0;
-    color: var(--primary-color);
-    font-weight: bold;
+    color: var(--text-muted);
 }
 
-.award-year {
-    color: var(--text-muted);
-    font-size: 0.9rem;
+.award-comment-wrapper em {
+    font-style: italic;
+}
+
+.award-comment-wrapper a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.award-comment-wrapper a:hover {
+    text-decoration: underline;
 }
 
 /* Teaching Section */

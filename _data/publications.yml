@@ -39,7 +39,7 @@
   venue: Under Review
   keywords: [Personalized Medicine, Uncertainty in AI/ML Diagnosis, 
     LLM Constrained Alignment, LLM Personalization, Active Learning, RLHF-type Alignment]
-  colab: ["Georgia Tech", "Texas A&M", "UW", "Emory University"]
+  colab: ["Georgia Tech", "Texas A&M", "UW"]
   preprint: |
     https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5642250
   abstract: |
@@ -85,6 +85,7 @@
 
 - title: "Tides Need STEMMED: A Locally Operating Spatio-Temporal Mutually Exciting Point Process with Dynamic Network for Improving Opioid Overdose Death Prediction"
   year: 2025
+  thumbnail: assets/images/publications/msom.png
   authors:
   - Che-Yi Liao
   - Zheng Dong
@@ -134,6 +135,7 @@
 
 - title: Balancing access, precision, and equity in adaptive test site allocation with an application to COVID-19 in Atlanta, Georgia
   year: 2025
+  thumbnail: assets/images/publications/sr.svg
   authors:
   - Thomas W Hsiao*
   - Che-Yi Liao*
@@ -166,6 +168,7 @@
 
 - title: A Responsible Framework for Assessing, Selecting, and Explaining Machine Learning Models in Cardiovascular Disease Outcomes Among People With Type 2 Diabetes - Methodology and Validation Study
   year: 2025
+  thumbnail: assets/images/publications/jmir_medical_info.jpg
   authors:
   - Yang Yang*
   - Che-Yi Liao*
@@ -182,12 +185,13 @@
 
 - title: Estimating Hidden Epidemic - A Bayesian Spatiotemporal Compartmental Modeling Approach
   year: 2025
+  thumbnail: assets/images/publications/ijds.jpg
   authors:
   - Che-Yi Liao*
   - Peiliang Bai*
   - Lance A. Waller
   - Paynabar Kamran
-  venue: INFORMS Journal on Data Science
+  venue: INFORMS Journal on Data Science (IJDS)
   keywords: ["Hidden Epidemic","Stochastic Compartmental Modeling", "Bayesian Spatiotemporal Modeling"]
   colab: ["Georgia Tech", "Emory University"]
   full_paper: "https://pubsonline.informs.org/doi/full/10.1287/ijds.2023.0020"
@@ -214,6 +218,7 @@
 
 - title: Racial Disparities in Opioid Overdose Deaths in Massachusetts
   year: 2022
+  thumbnail: assets/images/publications/jama_network_open.svg
   authors:
   - Che-Yi Liao
   - Gian-Gabriel P. Garcia
@@ -227,6 +232,7 @@
 
 - title: Evaluating patient triage strategies for non-emergency outpatient procedures under reduced capacity due to the covid-19 pandemic
   year: 2020
+  thumbnail: assets/images/publications/WSC_2020_Logo_web.png
   authors:
   - Adam VanDeusen
   - Che-Yi Liao*

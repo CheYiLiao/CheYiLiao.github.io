@@ -1,50 +1,87 @@
 # Awards and honors (newest first)
-# Fields: name, from (optional - organization), year
+# Fields:
+#   - title: Full award title with markdown formatting (use *text* for italic)
+#   - year: Year
+#   - type: "paper" or "personal"
+#   - comment: Optional additional note (shown as a bullet point below)
 
-- name: George Family Fellowship for Research Excellence
-  from: Georgia Tech
+- title: | 
+    **George Family Fellowship** for *Research Excellence in Healthcare System*, Georgia Tech
   year: 2025
+  type: personal
+  comment: |
+    [Award Details](https://www.isye.gatech.edu/academics/fellowships/george-fellowship-program)
 
-- name: Seth Bonder Scholarship for Applied Operations Research in Health Services
-  from: INFORMS
+- title: |
+    **Seth Bonder Scholarship** for *Applied Operations Research in Health Services*,  INFORMS
   year: 2024
+  type: personal
+  comment: |
+    [Award Details](https://www.informs.org/Recognizing-Excellence/Community-Prizes/Health-Applications-Society/Seth-Bonder-Scholarship-for-Applied-Operations-Research-in-Health-Services) |
+    [2024 INFORMS Award Hall](https://meetings.informs.org/wordpress/seattle2024/awards-hall/#seth-bonder)
+    [Department News Letter](https://www.isye.gatech.edu/news/georgia-tech-isye-celebrates-top-wins-2024-informs-annual-meeting)
 
-- name: Thos and Clair Muller Research Fellowship for Research Excellence
-  from: Georgia Tech
+- title: |
+    **Thos and Clair Muller Award** for *Research Excellence in Health Analytics and Health Systems*,  Georgia Tech
   year: 2024
+  type: personal
+  comment: |
+    [Award Details](https://www.isye.gatech.edu/academics/doctoral/current-students/graduate-awards)
 
-- name: George Family Fellowship for Research Excellence
-  from: Georgia Tech
+- title: | 
+    **George Family Fellowship** for *Research Excellence in Healthcare System*, Georgia Tech
   year: 2024
+  type: personal
 
-- name: Gold Student Scholorship
-  from: INFORMS Workshop on Data Science
+- title: |
+    **Gold Student Scholorship**, 2023 INFORMS Workshop on Data Science
   year: 2023
-
-- name: Stephen Pauker Award in Quantitative Methods (Finalist)
-  from: Socierty of Medical Decision Making (SMDM)
+  type: personal
+  comment: |
+    Awarded to early version of 
+    *Tides Need STEMMED: 
+    A Locally Operating Spatio-Temporal Mutually Exciting Point Process with Dynamic Network for Improving Opioid Overdose 
+    Death Prediction*
+- title: |
+    **Stephen Pauker Award in Quantitative Methods** (Finalist), Society of Medical Decision Making (SMDM)"
   year: 2023
+  type: paper
+  comment: |
+    Awarded to early version of *Augmenting Individualized Treatment Planning via Data-Driven Clinical Role Model Selection*
 
-- name: George Family Fellowship for Research Excellence
-  from: Georgia Tech
+- title: | 
+    **George Family Fellowship** for *Research Excellence in Healthcare System*, Georgia Tech
   year: 2023
+  type: personal
 
-- name: Stephen Pauker Award in Quantitative Methods
-  from: Socierty of Medical Decision Making (SMDM)
+- title: |
+    **Stephen Pauker Award in Quantitative Methods** (Winner), Society of Medical Decision Making (SMDM)
   year: 2022
+  type: paper
+  comment: |
+    - [Award Details](https://smdm.org/hub/page/early-career-awards/about)
+    - Awarded to early version of 
+    *Tides Need STEMMED: 
+    A Locally Operating Spatio-Temporal Mutually Exciting Point Process with Dynamic Network for Improving Opioid Overdose 
+    Death Prediction*
+    
 
-- name: George Family Fellowship for Research Excellence
-  from: Georgia Tech
+- title: | 
+    **George Family Fellowship** for *Research Excellence in Healthcare System*, Georgia Tech
   year: 2022
+  type: personal
 
-- name: McLean Fellowship for Distinguished Incoming Student
-  from: Georgia Tech
+- title: |
+    **McLean Fellowship for** *Distinguished Incoming Student*, Georgia Tech
   year: 2021
+  type: personal
 
-- name: Clyde W. and Nadra S. Johnson Award for Research Excellence
-  from: UMich
+- title: |
+    **Clyde W. and Nadra S. Johnson Award** for *Research Excellence*,  UMich
   year: 2021
+  type: personal
 
-- name: Seth Bonder Fellowship
-  from: UMich Center for Healthcare Engineering & Patient Safety
+- title: |
+    **Seth Bonder Fellowship** for *Healthcare Engineering Research*,  UMich Center for Healthcare Engineering & Patient Safety
   year: 2021
+  type: personal

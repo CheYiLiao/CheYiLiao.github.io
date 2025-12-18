@@ -18,11 +18,18 @@
 
         {% for pub in site.data.publications %}
         <div class="pub-item" data-categories="{% if pub.category %}{{ pub.category | join: ',' }}{% endif %}">
-            <div class="pub-title">
-                {% if pub.url %}<a href="{{ pub.url }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}
-                {% if pub.year %}<span class="pub-year">({{ pub.year }})</span>{% endif %}
-            </div>
-            <div class="pub-authors">
+            <div class="pub-content-wrapper">
+                {% if pub.thumbnail %}
+                <div class="pub-thumbnail">
+                    <img src="{{ pub.thumbnail | relative_url }}" alt="{{ pub.title }} thumbnail">
+                </div>
+                {% endif %}
+                <div class="pub-content">
+                    <div class="pub-title">
+                        {% if pub.url %}<a href="{{ pub.url }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}
+                        {% if pub.year %}<span class="pub-year">({{ pub.year }})</span>{% endif %}
+                    </div>
+                    <div class="pub-authors">
                 {% for author in pub.authors %}{% assign author_clean = author | replace: '*', '' | replace: '†', '' | strip %}{% if author_clean == site.author.name %}<strong>{{ author }}</strong>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
             </div>
             <div class="pub-venue">
@@ -49,10 +56,10 @@
                 {% endif %}
             </div>
             {% endif %}
-            <div class="pub-links">
-                {% if pub.abstract or pub.figure %}
-                <button class="pub-link pub-toggle" onclick="toggleAbstract('pub-{{ forloop.index }}')">Abstract ▼</button>
-                {% endif %}
+                    <div class="pub-links">
+                        {% if pub.abstract or pub.figure %}
+                        <button class="pub-link pub-toggle" onclick="toggleAbstract('pub-{{ forloop.index }}')">Abstract ▼</button>
+                        {% endif %}
                 {% if pub.preprint %}
                 <a href="{{ pub.preprint }}" class="pub-link">Preprint</a>
                 {% endif %}
@@ -68,9 +75,11 @@
                 {% if pub.video %}
                 <a href="{{ pub.video }}" class="pub-link">Video</a>
                 {% endif %}
-                {% if pub.code %}
-                <a href="{{ pub.code }}" class="pub-link">Code</a>
-                {% endif %}
+                        {% if pub.code %}
+                        <a href="{{ pub.code }}" class="pub-link">Code</a>
+                        {% endif %}
+                    </div>
+                </div>
             </div>
             {% if pub.abstract or pub.figure %}
             <div class="pub-abstract" id="pub-{{ forloop.index }}" style="display: none;">

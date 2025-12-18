@@ -13,8 +13,14 @@
             {% endfor %}
             {% endif %}
             <p class="profile-affiliation">{{ site.author.dept }}</p>
-            <p class="profile-affiliation">{{ site.author.school }}</p>
-            <p class="profile-affiliation">{{ site.author.location }}</p>
+            <p class="profile-affiliation">
+                <img src="{{ '/assets/images/GTVertical_TechGold.png' | relative_url }}" alt="Georgia Tech" width="20" height="20">
+                {{ site.author.school }}
+            </p>
+            <p class="profile-affiliation">
+                <i class="fas fa-location-crosshairs"></i>
+                {{ site.author.location }}
+            </p>
  
             <div class="social-links">
                 {% if site.social.google_scholar and site.social.google_scholar != "" %}
