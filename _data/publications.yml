@@ -65,7 +65,7 @@
     averaged across Patients. Iteration 0: Warm-Start. REL: Reliability Sampling, EtC-IMP: Lowest Effort to 
     Change Improvement Sampling, UNIF: Uniform Sampling, CT-INV: Count-Inverse Sampling, UnREL: Unreliable 
     Sampling, CASE: Constraint-Aware Active Self-Improving Finetuning. τ: Safety Threshold.
-  category: [llm, aiml]
+  category: [llm, aiml, sel]
 
 - title: |
     Augmenting Individualized Treatment Planning via Data-Driven Clinical Role Model Selection
@@ -131,7 +131,7 @@
   award: 
     - Winner of 2022 Lee B. Lusted Student Prize Competition (QMTD Track)
     - Gold Student Scholorship in 2023 INFORMS Workshop on Data Science
-  category: [stl, haom]
+  category: [stl, haom, se;]
 
 - title: Balancing access, precision, and equity in adaptive test site allocation with an application to COVID-19 in Atlanta, Georgia
   year: 2025
