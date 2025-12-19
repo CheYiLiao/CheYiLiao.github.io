@@ -5,7 +5,7 @@ content: |
   methods from **AI/ML**, **Statistics**, and **Operations Research**.
 
   My current research focuses on **data-efficient personalized LLMs** and **constrained alignment**. 
-  I developed a **provably safe RLHF variant** and validated it on personalized treatment recommendations 
+  I developed a **provably safe personalized RL** and validated it on treatment recommendations 
   by **fusing tabular survey data and multivariate clinical time series**, achieving **+130% 
   reliability** in generated treatment trajectories and **-23% patient effort-to-change**,
   compared to real treatment trajectories and benchmark algorithms. 
