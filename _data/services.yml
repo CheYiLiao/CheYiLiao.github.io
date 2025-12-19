@@ -1,31 +1,48 @@
-# Academic service - use 'items' for lists, 'content' for inline text
+# Academic service - organized by category
+# Fields:
+#   - title: Category title
+#   - items: List of specific items
+#     - col1, col2: Columns separated by | (aligned vertically)
+#     - comment: Optional comment (shown below with bullet, markdown compatible)
 
 - title: "Session Chair"
   items:
-    - INFORMS 2023 Annual Meeting (Session on Healthcare Analytics in Emerging Data Settings)
+    - col1: "2023"
+      col2: "INFORMS Annual Meeting (Session on Healthcare Analytics in Emerging Data Settings)"
 
 - title: "Journal Reviewer"
-  items: 
-    - IEEE Transactions on Automation Science and Engineering (IEEE-TASE)
-    - Health Care Management Science (HCMS)
+  items:
+    - col1: ""
+      col2: "IEEE Transactions on Automation Science and Engineering (IEEE-TASE)"
+    - col1: ""
+      col2: "Health Care Management Science (HCMS)"
 
 - title: "Conference Paper Reviewer"
   items:
-    - IISE 2024 Annual Conference & Expo
+    - col1: "2024"
+      col2: "IISE Annual Conference & Expo"
 
 - title: "Research Award Reviewer"
   items:
-    - 2024 Georgia Tech President’s Undergraduate Research Awards
-    - 2023 Georgia Tech President’s Undergraduate Research Awards
-    - 2023 Georgia Tech Annual Undergraduate Research Symposium
-    - 2022 Georgia Tech President’s Undergraduate Research Awards
+    - col1: "2024"
+      col2: "Georgia Tech President's Undergraduate Research Awards"
+    - col1: "2023"
+      col2: "Georgia Tech President's Undergraduate Research Awards"
+    - col1: "2023"
+      col2: "Georgia Tech Annual Undergraduate Research Symposium"
+    - col1: "2022"
+      col2: "Georgia Tech President's Undergraduate Research Awards"
 
 - title: "Conference Abstract Reviewer"
   items:
-    - SMDM 2024 Annual Meeting
-    - SMDM 2023 Annual Meeting
+    - col1: "2024"
+      col2: "SMDM Annual Meeting"
+    - col1: "2023"
+      col2: "SMDM Annual Meeting"
 
 - title: "Community Service"
   items:
-    - "2023-2024 Student Liaison, INFORMS Health Applications Society"
-    - "2022-2023 Student Liaison, INFORMS Health Applications Society"
+    - col1: "2023-2024"
+      col2: "Student Liaison, INFORMS Health Applications Society"
+    - col1: "2022-2023"
+      col2: "Student Liaison, INFORMS Health Applications Society"

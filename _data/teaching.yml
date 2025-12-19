@@ -1,25 +1,31 @@
-# Teaching - separate sections for instructor and guest lecturer roles
+# Teaching - organized by school
+# Fields:
+#   - school: School name
+#   - logo: Path to school logo (optional)
+#   - experiences: List of teaching experiences
+#     - title: Role/position title
+#     - items: List of specific items
+#       - col1, col2, col3: Columns separated by | (aligned vertically)
+#       - comment: Optional comment (shown below with bullet, markdown compatible)
 
-# instructor:
+- school: "@ Georgia Tech | Atlanta, GA, USA"
+  logo: /assets/images/GTLogoSeal_RGB.svg
+  experiences:
+    - title: "Teaching Assistant"
+      items:
+        - col1: Fall 2025
+          col2: ISYE 6525 - High Dimensional Data Analysis
+        - col1: Spring 2022
+          col2: ISYE 4031 - Regression and Forecasting
+        - col1: Fall 2021
+          col2: ISYE 2027 - Probability with Applications
+  
 
-teaching_assistant:
-  - code: "ISYE 6525"
-    name: "High Dimensional Data Analysis"
-    university: "Georgia Tech"
-    term: "Fall 2025"
-
-  - code: "ISYE 4031"
-    name: "Regression and Forecasting"
-    university: "Georgia Tech"
-    term: "Spring 2022"
-
-  - code: "ISYE 2027"
-    name: "Probability wih Applications"
-    university: "Georgia Tech"
-    term: "Fall 2021"
-
-guest_lecturer:
-  - topic: PhD School on Towards Zero Emissions Mobility
-    course: High Dimensional Data Analysis
-    university: University of Naples Federico II
-    term: "Fall 2024"
+- school: "@ University of Naples Federico II | Naples, Italy"
+  logo: /assets/images/unina.svg
+  experiences:
+    - title: "Guest Lecturer"
+      items:
+        - col1: "Fall 2024 (2 weeks)"
+          col2: "PhD School on Towards Zero Emissions Mobility"
+          comment: Topics on *High Dimensional Data Analysis*

@@ -21,7 +21,7 @@ content: |
   on 
   clinical validity (Michigan Medicine, Emory Hospital, VA Hospital, Georgia DPH).
   
-  <div style="font-size: 0.5rem; text-align: center; margin: 0.5rem 0; color: #a38f61;">***</div>
+  <hr class="bio-separator">
 
   *<mark>I am actively seeking an AI Research Scientist position starting in May 2026.</mark>*
   I am especially interested in roles focused on efficient LLM/Agent personalization and alignment for 

@@ -2,34 +2,43 @@
     <div class="section-container reveal">
         <h2 class="section-title">Teaching</h2>
 
-        {% if site.data.teaching.instructor %}
-        <h3 class="teaching-heading">Instructor</h3>
-        {% for course in site.data.teaching.instructor %}
-        <div class="teaching-item">
-            <h4>{% if course.url %}<a href="{{ course.url }}">{{ course.code }}: {{ course.name }}</a>{% else %}{{ course.code }}: {{ course.name }}{% endif %}</h4>
-            <p class="teaching-meta">{{ course.university }}, {{ course.term }}</p>
+        {% for school in site.data.teaching %}
+        <div class="teaching-school-group">
+            <div class="teaching-school-header">
+                <span class="teaching-school-name">{{ school.school }}</span>
+                {% if school.logo %}
+                <img src="{{ school.logo }}" alt="{{ school.school }} logo" class="teaching-school-logo">
+                {% endif %}
+            </div>
+            {% for exp in school.experiences %}
+            <div class="teaching-experience">
+                <span class="teaching-title">{{ exp.title | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>
+                {% if exp.items %}
+                <table class="teaching-items-table">
+                    {% for item in exp.items %}
+                    <tr class="teaching-item-row">
+                        <td class="teaching-col1">{{ item.col1 }}</td>
+                        <td class="teaching-separator">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+                        <td class="teaching-col2">{{ item.col2 }}</td>
+                        {% if item.col3 %}
+                        <td class="teaching-separator">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+                        <td class="teaching-col3">{{ item.col3 }}</td>
+                        {% endif %}
+                    </tr>
+                    {% if item.comment %}
+                    <tr class="teaching-comment-row">
+                        <td colspan="5" class="teaching-item-comment">
+                            <span class="teaching-comment-bullet">•</span>
+                            {{ item.comment | markdownify | remove: '<p>' | remove: '</p>' | strip }}
+                        </td>
+                    </tr>
+                    {% endif %}
+                    {% endfor %}
+                </table>
+                {% endif %}
+            </div>
+            {% endfor %}
         </div>
         {% endfor %}
-        {% endif %}
-
-        {% if site.data.teaching.teaching_assistant %}
-        <h3 class="teaching-heading">Teaching Assistant</h3>
-        {% for course in site.data.teaching.teaching_assistant %}
-        <div class="teaching-item">
-            <h4>{% if course.url %}<a href="{{ course.url }}">{{ course.code }}: {{ course.name }}</a>{% else %}{{ course.code }}: {{ course.name }}{% endif %}</h4>
-            <p class="teaching-meta">{{ course.university }}, {{ course.term }}</p>
-        </div>
-        {% endfor %}
-        {% endif %}
-
-        {% if site.data.teaching.guest_lecturer %}
-        <h3 class="teaching-heading">Guest Lecturer</h3>
-        {% for lecture in site.data.teaching.guest_lecturer %}
-        <div class="teaching-item">
-            <h4>{{ lecture.topic }}</h4>
-            <p class="teaching-meta">{{ lecture.course }} at {{ lecture.university }}, {{ lecture.term }}</p>
-        </div>
-        {% endfor %}
-        {% endif %}
     </div>
 </section>
