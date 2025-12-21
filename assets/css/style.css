@@ -711,6 +711,15 @@ section:nth-child(even) {
     text-decoration: none;
 }
 
+.award-comment-wrapper a::after {
+    content: "\f08e";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 0.75em;
+    margin-left: 0.25em;
+    vertical-align: super;
+}
+
 .award-comment-wrapper a:hover {
     text-decoration: underline;
 }
