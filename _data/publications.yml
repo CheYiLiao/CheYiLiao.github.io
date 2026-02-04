@@ -17,16 +17,39 @@
   category: [aiml, llm]
 
 - title: |
-    Imputing Multivariate Time Series (tentative)
+    Multivariate Time Series Data Imputation via Distributionally Robust 
+    Regularization
   year: 2025
   authors:
   - Che-Yi Liao
   - Zheng Dong
   - Gian-Gabriel P. Garcia
   - Kamran Paynabar
-  # venue: Under Review
-  keywords: [Data Imputation]
+  venue: Under Review
+  keywords: [Time Series, Missing Data Imputation, Optimal Transport, Distributionally Robust Optimization]
   colab: ["Georgia Tech", "UW", "Amazon"]
+    preprint: |
+    https://arxiv.org/abs/2602.00844
+  abstract: |
+    Multivariate time series (MTS) imputation is often compromised by mismatch 
+    between observed and true data distributions, a bias exacerbated by 
+    non-stationarity and systematic missingness. Standard methods that minimize 
+    reconstruction error or encourage distributional alignment risk overfitting 
+    these biased observations. We propose the Distributionally Robust Regularized 
+    Imputer Objective (DRIO), which jointly minimizes reconstruction error and 
+    the divergence between the imputer and a worst-case distribution within a 
+    Wasserstein ambiguity set. We derive a tractable dual formulation that 
+    reduces infinite-dimensional optimization over measures to adversarial 
+    search over sample trajectories, and propose an adversarial learning 
+    algorithm compatible with flexible deep learning backbones. Comprehensive 
+    experiments on diverse real-world datasets show DRIO consistently improves 
+    imputation under both missing-completely-at-random and missing-not-at-random 
+    settings, reaching Pareto-optimal trade-offs between reconstruction accuracy 
+    and distributional alignment.
+  figure: |
+    assets/images/drio_flowchart.png
+  figure_caption: |
+    Overview of Multivariate Time Series Imputation under DRIO.
   category: [aiml]
 
 - title: |
