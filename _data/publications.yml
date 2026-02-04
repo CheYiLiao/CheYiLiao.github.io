@@ -28,7 +28,7 @@
   venue: Under Review
   keywords: [Time Series, Missing Data Imputation, Optimal Transport, Distributionally Robust Optimization]
   colab: ["Georgia Tech", "UW", "Amazon"]
-    preprint: |
+  preprint: |
     https://arxiv.org/abs/2602.00844
   abstract: |
     Multivariate time series (MTS) imputation is often compromised by mismatch 
