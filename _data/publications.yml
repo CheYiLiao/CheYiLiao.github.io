@@ -50,7 +50,7 @@
     assets/images/drio_flowchart.png
   figure_caption: |
     Overview of Multivariate Time Series Imputation under DRIO.
-  category: [aiml]
+  category: [aiml, sel]
 
 - title: |
     Constraint-Aware Self-Improving Large Language Model for Clinical Role Model Generation
