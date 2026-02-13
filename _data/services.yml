@@ -21,6 +21,8 @@
 
 - title: "Conference Paper Reviewer"
   items:
+    - col1: "2026"
+      col2: "Forty-third International Conference on Machine Learning (ICML 2026)"
     - col1: "2024"
       col2: "IISE Annual Conference & Expo"
 
