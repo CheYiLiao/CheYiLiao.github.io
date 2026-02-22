@@ -103,7 +103,8 @@
     Data-Driven Distributionally Robust Optimization, "Active Learning"]
   colab: ["Georgia Tech", "Texas A&M", "UW", "Emory University"]
   award: 
-    - Finalist of 2023 Lee B. Lusted Student Prize Competition (QMTD Track)
+    - Finalist (winner to be announced) of 2026 Colledge of Healthcare Operations Management (CHOM) Best Paper Award at POMS 2026
+    - Finalist of 2023 Lee B. Lusted Student Prize Competition (QMTD Track) at SMDM Annual Meeting
   category: [aiml,haom]
 
 - title: "Tides Need STEMMED: A Locally Operating Spatio-Temporal Mutually Exciting Point Process with Dynamic Network for Improving Opioid Overdose Death Prediction"
@@ -152,7 +153,7 @@
   figure_caption: |
     Figure: Spatiotemporal Dynamics of OOD Connections: Drug-Type and City Interactions in Massachusetts.
   award: 
-    - Winner of 2022 Lee B. Lusted Student Prize Competition (QMTD Track)
+    - Winner of 2022 Lee B. Lusted Student Prize Competition (QMTD Track) at SMDM Annual Meeting
     - Gold Student Scholorship in 2023 INFORMS Workshop on Data Science
   category: [stl, haom, sel]
 
