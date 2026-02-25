@@ -1,30 +1,30 @@
 # Your bio/about content (supports Markdown)
 content: |
   I am a **PhD Candidate in Machine Learning** at **Georgia Institute of Technology**, 
-  developing **robust AI systems** for real-world high-stakes applications. My work integrates 
-  methods from **AI/ML**, **Statistics**, and **Operations Research**.
+  developing **robust AI systems** for real-world high-stakes applications by integrating 
+  **AI/ML**, **Statistics**, and **Operations Research** methods from a **data-centric perspective**.
+  My recent research directions include data-efficient personalized LLMs, constrained alignment,
+  and knowledge distillation from foundation models. Feel free to contact for research collaborations or just to say hi!
 
-  My current research focuses on **data-efficient personalized LLMs** and **constrained alignment**. 
-  I developed a **provably safe personalized RL** and validated it on treatment recommendations 
-  by **fusing tabular survey data and multivariate clinical time series**, achieving **+130% 
-  reliability** in generated treatment trajectories and **-23% patient effort-to-change**,
-  compared to real treatment trajectories and benchmark algorithms. 
-  [*[Link to Paper]*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5642250)
-
-  On the industry side, I interned at **Meta**, where I optimized **early-stage ads ranking** via advanced 
-  **deep learning architectures** and **foundation model knowledge distillation**, while building **end-to-end 
-  validation pipelines** from data ingestion to deployment.
-  
-  I enjoy **cross-functional collaboration**, with extensive experience working with 
-  **researchers and engineers**
-  on theoretical and technical constraints (Meta, Bosch) and partnering with **medical practitioners** 
-  on 
-  clinical validity (Michigan Medicine, Emory Hospital, VA Hospital, Georgia DPH).
   
   <hr class="bio-separator">
 
-  *<mark>I am actively seeking an AI Research Scientist position starting in May 2026.</mark>*
-  I am especially interested in roles focused on efficient LLM/Agent personalization and alignment for 
-  business process modeling.
-
-  **Research Interests:** Data Curation, Personalized LLM, Constrained Alignment, AI for Business Process Modeling
+# News items (newest first)
+# Each item has: date (YYYY-MM format), content (supports Markdown)
+news:
+  - date: "2026-02"
+    content: 
+      I will join Meta Modern Recommendation System (MRS) as a Research Scientist starting in Summer 2026!
+  - date: "2026-02"
+    content: 
+      Our paper, *Augmenting Individualized Treatment Planning via Data-Driven Clinical Role Model Selection*, 
+      is a finalist for the **CHOM Best Paper Award** at the 2026 POMS Annual Conference! 
+      This work addresses how distribution shifts, caused by frequent updates to AI/ML health tools, 
+      affect the recommendation of clinical role models — prior cases similar 
+      to the current patient — and the subsequent treatment planning.
+      The winner will be announced in Reno, NV, May 7–11. Fingers crossed!
+  - date: "2026-01"
+    content:
+      Our new paper, *Multivariate Time Series Data Imputation via Distributionally Robust Regularization*,
+      tackles distribution shifts in time series imputation — a common challenge due to nonstationarity and
+      structural missing patterns. Check it out [here](https://arxiv.org/abs/2602.00844)!

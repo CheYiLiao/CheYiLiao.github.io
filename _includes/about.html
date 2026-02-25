@@ -54,6 +54,20 @@
 
         <div class="bio">
             {{ site.data.about.content | markdownify }}
+
+            {% if site.data.about.news and site.data.about.news.size > 0 %}
+            <div class="news-section">
+                <h3>News</h3>
+                <ul class="news-list">
+                    {% for item in site.data.about.news %}
+                    <li>
+                        <span class="news-date">[{{ item.date }}]</span>
+                        {{ item.content | markdownify | remove: '<p>' | remove: '</p>' }}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
         </div>
     </div>
 </section>

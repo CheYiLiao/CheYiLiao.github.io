@@ -280,6 +280,44 @@ nav {
     margin: 0.75rem 0;
 }
 
+/* News Section */
+.news-section {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-color);
+}
+
+.news-section h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin-bottom: 0.75rem;
+}
+
+.news-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.news-list li {
+    padding: 0.4rem 0;
+    font-size: 0.95rem;
+    color: var(--text-dark);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.news-list li:last-child {
+    border-bottom: none;
+}
+
+.news-date {
+    color: var(--primary-color);
+    font-weight: 500;
+    margin-right: 0.5rem;
+}
+
 /* Sections */
 section {
     padding: 4rem 1rem;
