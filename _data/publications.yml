@@ -5,13 +5,31 @@
 # Categories: published, working-paper, conference, journal, etc.
 
 - title: |
+    Development and Evaluation of Cardiovascular Disease Risk Prediction Models for Patients with Type 2 Diabetes
+  thumbnail: assets/images/publications/sr.svg
+  year: 2026
+  authors:
+  - Yang Yang*
+  - Tian Liu*
+  - Che-Yi Liao
+  - Sun Ju Lee
+  - Esmaeil Keyvanshokooh
+  - Hui Shao
+  - Mary Beth Weber
+  - Francisco J. Pasquel
+  - Gian-Gabriel P. Garcia
+  # venue: Under Review
+  keywords: [Type 2 Diabetes, ML Risk Prediction, ML Evaluation]
+  colab: ["Georgia Tech", "Texas A&M", "Emory", "UW"]
+  category: [aiml]
+- title: |
     Knowledge Distillation for Process Control(tentative)
   year: 2026
   authors:
   - Che-Yi Liao
   - Gian-Gabriel P. Garcia
   - Kamran Paynabar
-  # venue: Under Review
+  venue: Scientific Reports
   keywords: [Process Control, LLM Knowledge Distillation]
   colab: ["Georgia Tech", "UW"]
   category: [aiml, llm]
