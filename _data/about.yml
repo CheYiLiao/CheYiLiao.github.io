@@ -14,9 +14,6 @@ content: |
 news:
   - date: "2026-02"
     content: 
-      I will join Meta Modern Recommendation System (MRS) as a Research Scientist starting in Summer 2026!
-  - date: "2026-02"
-    content: 
       Our paper, *Augmenting Individualized Treatment Planning via Data-Driven Clinical Role Model Selection*, 
       is a finalist for the **CHOM Best Paper Award** at the 2026 POMS Annual Conference! 
       This work addresses how distribution shifts, caused by frequent updates to AI/ML health tools, 
